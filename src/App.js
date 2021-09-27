@@ -19,7 +19,7 @@ function App() {
 
   useEffect(() => {
     const rowData = getRowData(mockData[selectedState], selectedRowId);
-    const data = generateChartData(mockData[DATA_CATEGORIES], rowData);
+    const data = generateChartData(mockData[DATA_CATEGORIES].slice(1), rowData);
     setChartData(data);
   }, [selectedRowId, selectedState]);
 
