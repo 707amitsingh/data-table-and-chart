@@ -1,0 +1,31 @@
+.tableRow {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    color: black;
+    font-weight: bold;
+}
+
+.tableRow:hover {
+    background-color: steelblue;
+    color: white;
+    cursor: pointer;
+}
+
+.tableHeaderRow {
+    display: flex;
+    justify-content: space-between;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+}
+
+.tableHeaderRow span {
+    padding: 5px 10px;
+}
+
+.tableCell {
+    flex-grow: 1;
+    width: 5rem;
+    border: 1px dotted darkgray
+}
